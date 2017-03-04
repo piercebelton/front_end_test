@@ -15,3 +15,16 @@ var images = {
 		path: 'img/beast.jpg'
 	}
 };
+
+$(document).ready(function() {
+
+	var elements = Object.keys(images).map(function(item) {
+	  var img = images[item];
+	  return(
+	    "<div class='col-sm-4'><div class='hov-container img-container'><img class='img-responsive' src='" + img.path + "'><div class='hov-text'><h4>" + img.heading+"</h4>" +img.description+"</div></div></div>"
+	  )
+	});
+
+	$("div#img-row").html(elements);
+
+});

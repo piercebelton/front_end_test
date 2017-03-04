@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Front End Test</title>
+    <script
+      src="https://code.jquery.com/jquery-3.1.1.min.js"
+      integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+      crossorigin="anonymous">
+    </script>
+    <link rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" />
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
+    </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="public/css/main.css" />
+  </head>
+  <body>
+    <div class="row">
+      <nav class="navbar navbar-default">
+        <div class="container-fluid" id="nav-container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar custom-bar"></span>
+              <div class="spacing"></div>
+              <span class="icon-bar"></span>
+              <div class="spacing"></div>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#"><img id="logo" src="img/leaselabs_logo_fullstack_rgb.png"/></a>
+          </div>
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right navlink nav-pills">
+              <li class="navbar-item nav-item active" id="home"><a class="nav-link" data-target="#home" data-toggle="pill" href="#">Home</a></li>
+              <li class="navbar-item nav-item" id="our-work"><a class="nav-link" data-target="#our-work" data-toggle="pill" href="#">Our Work</a></li>
+              <li class="navbar-item nav-item" id="about"><a class="nav-link" data-target="#about" data-toggle="pill" href="#">About Us</a></li>
+              <li class="navbar-item nav-item" id="contact"><a class="nav-link" data-target="#contact" data-toggle="pill" href="#">Contact Us</a></li>
+              <li class="navbar-item nav-item" id="specials"><a class="nav-link" data-target="#specials" data-toggle="pill" href="#">Specials</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <div class="row" id="main-section">
+      <div class="col-sm-3" id="subnav">
+        <ul class="subnav-list">
+          <p class="subnav-header">Subnav</p>
+          <li class="subnav-link"><a class="plain-link" href="#">Link 1</a></li>
+          <li class="subnav-link"><a class="plain-link" href="#">Link 2</a></li>
+          <li class="subnav-link"><a class="plain-link" href="#">Link 3</a></li>
+        </ul>
+        <ul class="subnav-list">
+          <p class="subnav-header">Related Links</p>
+          <li class="subnav-link"><a class="plain-link" href="#">Link 1</a></li>
+          <li class="subnav-link"><a class="plain-link" href="#">Link 2</a></li>
+          <li class="subnav-link"><a class="plain-link" href="#">Link 3</a></li>
+        </ul>
+      </div>
+      <div class="col-sm-9" id="main-body">
+        <h1>HEADING 1</h1>
+        <h3><em>heading 2</em></h3>
+        <br/>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer malesuada aliquet auctor. Vivamus dictum purus quam, imperdiet venenatis libero varius in. Praesent condimentum finibus mi, sit amet volutpat ex fermentum at.</p>
+        <br/>
+        <p> Sed nec hendrerit leo, ut lacinia tellus. Morbi leo odio, blandit ac dignissim sit amet, feugiat et ex. Sed facilisis varius magna, ac scelerisque est efficitur sed.</p>
+        <br/>
+        <p>Sed ac odio a eros fermentum convallis a nec diam. Suspendisse ac tortor a nulla placerat faucibus vitae nec ante. Nullam aliquet ullamcorper metus a gravida. Phasellus at consequat ligula. Praesent condimentum finibus mi, sit amet volutpat ex fermentum at.</p>
+
+        <div class="row" id="img-row">
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
